@@ -53,4 +53,4 @@ with tab3:
     if st.button("🌍 Faida za EAC na COMESA",key="m3"):
         with st.spinner("..."): r=ask("Faida za EAC (East African Community) na COMESA kwa biashara ndogo Kenya. Bidhaa gani zinaweza kusafirishwa bila ushuru? Jinsi ya kutumia Certificate of Origin.")
         st.markdown(f'<div class="mz-card">{r.replace(chr(10),"<br>")}</div>',unsafe_allow_html=True)
-st.markdown("---"); st.caption("📦 Mzigo AI v1.0 | KRA Customs: kra.go.ke | EPC: epckenya.go.ke | KEBS: kebs.org | CC BY-NC-ND 4.0")
+st.markdown("---"); st.caption("📦 Mzigo AI v1.0 | KRA Customs: kra.go.ke | EPC: epckenya.go.ke | KEBS: kebs.org | MIT")
